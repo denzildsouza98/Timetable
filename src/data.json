@@ -1,0 +1,658 @@
+{
+  "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  "hours": [
+    {
+      "name": "Slot 1",
+      "status": true
+    },
+    {
+      "name": "Slot 2",
+      "status": true
+    },
+    {
+      "name": "Short Break",
+      "status": false
+    },
+    {
+      "name": "Slot 3",
+      "status": true
+    },
+    {
+      "name": "Slot 4",
+      "status": true
+    },
+    {
+      "name": "Lunch",
+      "status": false
+    },
+    {
+      "name": "Slot 5",
+      "status": true
+    },
+    {
+      "name": "Slot 6",
+      "status": true
+    },
+    {
+      "name": "Slot 7",
+      "status": true
+    },
+    {
+      "name": "Slot 8",
+      "status": true
+    }
+  ],
+  "rooms": [
+    "CR2",
+    "CR3",
+    "CR4",
+    "Lab1",
+    "Lab2",
+    "Lab3",
+    "Lab4",
+    "Lab5",
+    "Lab6",
+    "Lab7",
+    "Lab8",
+    "Comp_Tut",
+    "Comp_center"
+  ],
+  "courses": [
+    {
+      "course_id": "CSC401",
+      "course_name": "AM",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 5,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR2"]
+    },
+    {
+      "course_id": "CSC402",
+      "course_name": "AOA",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR2"]
+    },
+    {
+      "course_id": "CSC403",
+      "course_name": "COA",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR2"]
+    },
+    {
+      "course_id": "CSC404",
+      "course_name": "CG",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR2"]
+    },
+    {
+      "course_id": "CSC405",
+      "course_name": "OS",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR2"]
+    },
+    {
+      "course_id": "CSL405T",
+      "course_name": "OST",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR2"]
+    },
+    {
+      "course_id": "CSL401",
+      "course_name": "AOAL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab8"]
+    },
+    {
+      "course_id": "CSL402",
+      "course_name": "CGL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab3", "Lab7", "Comp_center"]
+    },
+    {
+      "course_id": "CSL403",
+      "course_name": "PAL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab5", "Lab6"]
+    },
+    {
+      "course_id": "CSL404",
+      "course_name": "OSL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab3", "Lab4"]
+    },
+    {
+      "course_id": "CSL405",
+      "course_name": "OSTL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab4"]
+    },
+    {
+      "course_id": "CSL406",
+      "course_name": "INN",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab1", "Comp_center"]
+    },
+    {
+      "course_id": "CSC601",
+      "course_name": "SE",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR3"]
+    },
+    {
+      "course_id": "CSC602",
+      "course_name": "SPCC",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR3"]
+    },
+    {
+      "course_id": "CSC603",
+      "course_name": "DWM",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR3"]
+    },
+    {
+      "course_id": "CSC604",
+      "course_name": "CSS",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR3"]
+    },
+    {
+      "course_id": "CSC605",
+      "course_name": "Seminar",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["CR3"]
+    },
+    {
+      "course_id": "CSDLO6021",
+      "course_name": "ML",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["Lab5", "CR2", "CR3"]
+    },
+    {
+      "course_id": "CSDLO6023",
+      "course_name": "ERP",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["Comp_Tut"]
+    },
+    {
+      "course_id": "CSL601",
+      "course_name": "SEL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab6"]
+    },
+    {
+      "course_id": "CSL602",
+      "course_name": "SSL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab3", "Lab5"]
+    },
+    {
+      "course_id": "CSL603",
+      "course_name": "DWML",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab4", "Lab6", "Comp_center", "Lab7"]
+    },
+    {
+      "course_id": "CSL604",
+      "course_name": "SSecurityL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab8"]
+    },
+    {
+      "course_id": "CSP605",
+      "course_name": "Mini-Project",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab3", "Lab4", "Lab5"]
+    },
+    {
+      "course_id": "CSC801",
+      "course_name": "HMI",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR2", "CR3"]
+    },
+    {
+      "course_id": "CSC802",
+      "course_name": "DC",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR2", "CR3"]
+    },
+    {
+      "course_id": "DLO8011",
+      "course_name": "HPC",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR2", "CR3", "Lab5"]
+    },
+    {
+      "course_id": "DLO8012",
+      "course_name": "NLP",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["Comp_Tut", "CR2", "CR3"]
+    },
+    {
+      "course_id": "ILO8021",
+      "course_name": "PM",
+      "no_of_hours_to_schedule_when_assigning": 1,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 3,
+      "max_consecutive_hours_per_day": 1,
+      "valid_rooms": ["CR2", "CR3"]
+    },
+    {
+      "course_id": "CSL801",
+      "course_name": "HMIL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab7"]
+    },
+    {
+      "course_id": "CSL802",
+      "course_name": "DCL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab6"]
+    },
+    {
+      "course_id": "CSL803",
+      "course_name": "CCL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 4,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab4", "Lab8", "Comp_center"]
+    },
+    {
+      "course_id": "CSL804",
+      "course_name": "CL",
+      "no_of_hours_to_schedule_when_assigning": 2,
+      "max_no_hours_per_day": 2,
+      "no_hours_per_week": 2,
+      "max_consecutive_hours_per_day": 2,
+      "valid_rooms": ["Lab4", "Lab5"]
+    },
+    {
+      "course_id": "CSP805",
+      "course_name": "Major-Project",
+      "no_of_hours_to_schedule_when_assigning": 3,
+      "max_no_hours_per_day": 3,
+      "no_hours_per_week": 6,
+      "max_consecutive_hours_per_day": 3,
+      "valid_rooms": ["Lab1"]
+    }
+  ],
+  "student_groups": [
+    {
+      "name": "SE COMPS",
+      "courses": [
+        "CSC401",
+        "CSC402",
+        "CSC403",
+        "CSC404",
+        "CSC405",
+        "CSL405T",
+        "CSL401",
+        "CSL402",
+        "CSL403",
+        "CSL404",
+        "CSL405",
+        "CSL406"
+      ]
+    },
+    {
+      "name": "TE COMPS",
+      "courses": [
+        "CSC601",
+        "CSC602",
+        "CSC603",
+        "CSC604",
+        "CSC605",
+        "CSDLO6021",
+        "CSDLO6023",
+        "CSL601",
+        "CSL602",
+        "CSL603",
+        "CSL604",
+        "CSP605"
+      ]
+    },
+    {
+      "name": "BE COMPS",
+      "courses": [
+        "CSC801",
+        "CSC802",
+        "DLO8011",
+        "DLO8012",
+        "ILO8021",
+        "CSL801",
+        "CSL802",
+        "CSL803",
+        "CSL804",
+        "CSP805"
+      ]
+    }
+  ],
+  "lecturers": [
+    {
+      "name": "Satyanarayana",
+      "department": "First Year",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 1,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": ["CSC401 all"]
+    },
+    {
+      "name": "Deepali Kayande",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "ILO8021 all",
+        "CSL803 Batch-C",
+        "CSL803 Batch-D",
+        "CSP605 Batch-B",
+        "CSP605 Batch-D"
+      ]
+    },
+    {
+      "name": "Priya Kaul",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": ["CSC603 all"]
+    },
+    {
+      "name": "Sejal Chopra",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "CSC403 all",
+        "CSL403 Batch-A",
+        "CSL403 Batch-B",
+        "CSL403 Batch-C",
+        "CSL403 Batch-D",
+        "CSL602 Batch-D",
+        "CSL406 Batch-C",
+        "CSL603 Batch-B",
+        "CSL603 Batch-A"
+      ]
+    },
+    {
+      "name": "Ali Imran Mirza",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "CSC601 all",
+        "CSL601 Batch-A",
+        "CSL601 Batch-B",
+        "CSL601 Batch-C",
+        "CSL601 Batch-D",
+        "CSL406 Batch-D"
+      ]
+    },
+    {
+      "name": "Ditty K Varghese",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "CSC402 all",
+        "CSL401 Batch-A",
+        "CSL401 Batch-B",
+        "CSL401 Batch-C",
+        "CSL401 Batch-D",
+        "CSL803 Batch-A",
+        "CSL803 Batch-B"
+      ]
+    },
+    {
+      "name": "Shainila M",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "CSC405 all",
+        "CSL404 Batch-A",
+        "CSL404 Batch-B",
+        "CSL404 Batch-C",
+        "CSDLO6023 Group_2",
+        "CSP605 Batch-C"
+      ]
+    },
+    {
+      "name": "Amiya Kumar Tripathy",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "CSC802 all",
+        "CSL802 Batch-A",
+        "CSL802 Batch-B",
+        "CSL802 Batch-C",
+        "CSL802 Batch-D",
+        "CSL404 Batch-D"
+      ]
+    },
+    {
+      "name": "Dipti Jadhav",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "CSC801 all",
+        "CSL801 Batch-A",
+        "CSL801 Batch-B",
+        "CSL801 Batch-C",
+        "CSL801 Batch-D",
+        "CSC404 all",
+        "CSL402 Batch-A"
+      ]
+    },
+    {
+      "name": "Kalpita Wagaskar",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 10,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": ["DLO8011 Group_1", "CSL804 Batch-A"]
+    },
+    {
+      "name": "Shafaque Sayyed",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "CSL406 Batch-A",
+        "CSL406 Batch-B",
+        "CSC604 all",
+        "CSL604 Batch-A",
+        "CSL604 Batch-B",
+        "CSL604 Batch-C",
+        "CSL604 Batch-D",
+        "CSC605 all",
+        "CSL402 Batch-B"
+      ]
+    },
+    {
+      "name": "Phiroj Shaikh",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "DLO8012 Group_2",
+        "CSL804 Batch-B",
+        "CSL804 Batch-C",
+        "CSL804 Batch-D",
+        "CSL402 Batch-C",
+        "CSL402 Batch-D",
+        "CSL603 Batch-C",
+        "CSL603 Batch-D"
+      ]
+    },
+    {
+      "name": "Sana",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "HOD",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "CSL405T all",
+        "CSL405 Batch-A",
+        "CSL405 Batch-B",
+        "CSL405 Batch-C",
+        "CSL405 Batch-D"
+      ]
+    },
+    {
+      "name": "Mayura Gavhane",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": [
+        "CSC602 all",
+        "CSL602 Batch-A",
+        "CSL602 Batch-B",
+        "CSL602 Batch-C",
+        "CSDLO6021 Group_1",
+        "CSP605 Batch-A"
+      ]
+    },
+    {
+      "name": "Others",
+      "department": "Computer",
+      "max_no_hours_per_day": 8,
+      "max_no_hours_per_week": 20,
+      "max_consecutive_hours": 2,
+      "rank": "Asst. Professor",
+      "Availabilty_slots": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "courses": ["CSP805 all"]
+    }
+  ],
+  "population_size": 20,
+  "iterations": 10
+}

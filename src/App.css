@@ -1,10 +1,26 @@
 .App {
   text-align: center;
+  background-color: #252a34;
+  color: white;
+}
+
+.nav-link.active {
+  background-color: #ff2e63 !important;
+}
+.nav-link {
+  color: #eaeaea;
+}
+.nav-link:hover {
+  color: #08d9d6;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+select {
+  margin: 3%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +42,19 @@
 
 .App-link {
   color: #61dafb;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #252a34;
+}
+
+#root {
+  margin: 0;
+  height: 100%;
+  background-color: #252a34;
 }
 
 @keyframes App-logo-spin {
